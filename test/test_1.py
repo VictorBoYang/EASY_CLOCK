@@ -1,5 +1,6 @@
 import pytest
-
+import sys
+sys.path.append("..")
 from class_clock import *
 
 def test_easyTick_1():

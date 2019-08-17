@@ -8,7 +8,9 @@ class Clock:
         Hour = self.fill_zero(self.hour)
         Minute = self.fill_zero(self.minute)
         Second = self.fill_zero(self.second)
+        print ("%s:%s:%s" % (Hour,Minute,Second))
         return "%s:%s:%s" % (Hour,Minute,Second)
+
 
 
     def Tick(self):
